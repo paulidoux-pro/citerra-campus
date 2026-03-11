@@ -1,5 +1,6 @@
 import { NAV_ITEMS, CONTACT_INFO } from "@/lib/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -50,20 +51,55 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs">
-            &copy; {new Date().getFullYear()} ESRre SAS. Tous droits réservés.
-          </p>
-          <div className="flex gap-6 text-xs">
-            <a
-              href="/mentions-legales"
-              className="hover:text-white transition-colors"
-            >
-              Mentions légales
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Politique de confidentialité
-            </a>
+        <div className="mt-12 border-t border-white/10 pt-8">
+          <div className="text-xs leading-relaxed space-y-1 mb-6">
+            <p>
+              Citerra Campus Immobilier — Marque commerciale de ESRre
+            </p>
+            <p>
+              SAS ESRre – RCS Dunkerque 992 027 730
+            </p>
+            <p>
+              Agence immobilière – Transaction sur immeubles et fonds de commerce
+            </p>
+            <p>
+              Carte professionnelle CPI 5906 2026 000 000 001 – CCI Grand Lille
+            </p>
+            <p>
+              La société ESRre ne détient aucun fonds pour le compte de tiers
+            </p>
+          </div>
+
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-xs">
+              &copy; {new Date().getFullYear()} ESRre – Citerra Campus Immobilier. Tous droits réservés.
+            </p>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs">
+              <Link
+                href="/mentions-legales"
+                className="hover:text-white transition-colors"
+              >
+                Mentions légales
+              </Link>
+              <Link
+                href="/bareme-honoraires"
+                className="hover:text-white transition-colors"
+              >
+                Barème des honoraires
+              </Link>
+              <Link
+                href="/politique-de-confidentialite"
+                className="hover:text-white transition-colors"
+              >
+                Politique de confidentialité
+              </Link>
+              <Link
+                href="/gestion-des-cookies"
+                className="hover:text-white transition-colors"
+              >
+                Gestion des cookies
+              </Link>
+            </div>
           </div>
         </div>
       </div>
