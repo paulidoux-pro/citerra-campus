@@ -95,6 +95,12 @@ export default function MentionsLegales() {
               sauf dans les cas autorisés par la loi.
             </p>
             <p className="text-slate-600 leading-relaxed mt-3">
+              Toute utilisation non autorisée du site ou de l&apos;un quelconque
+              des éléments qu&apos;il contient pourra faire l&apos;objet de
+              poursuites conformément aux dispositions du Code de la propriété
+              intellectuelle.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
               Les marques, dénominations sociales et logos présents sur le site
               sont protégés et leur reproduction ou utilisation, totale ou
               partielle, sans autorisation préalable est interdite.
@@ -104,7 +110,7 @@ export default function MentionsLegales() {
           {/* Contenus immobiliers */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Contenus immobiliers
+              Clause spécifique aux contenus immobiliers
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Les photographies, plans, descriptifs, documents techniques et
@@ -116,18 +122,20 @@ export default function MentionsLegales() {
             </p>
           </section>
 
-          {/* Clause de non-responsabilité */}
+          {/* Clause de non-responsabilité - Informations immobilières */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Informations immobilières — Clause de non-responsabilité
+              Clause de non-responsabilité — Informations immobilières
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Les informations présentées sur le site Citerra Campus Immobilier
-              sont fournies à titre indicatif. Bien que la société ESRre
-              s&apos;efforce d&apos;assurer l&apos;exactitude et
-              l&apos;actualisation des informations diffusées, celles-ci
-              peuvent être sujettes à modification à tout moment et sans
-              préavis.
+              sont fournies à titre indicatif.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Bien que la société ESRre s&apos;efforce d&apos;assurer
+              l&apos;exactitude et l&apos;actualisation des informations
+              diffusées, celles-ci peuvent être sujettes à modification à tout
+              moment et sans préavis.
             </p>
             <p className="text-slate-600 leading-relaxed mt-3">
               Les surfaces, plans, descriptifs, loyers, prix ou disponibilités
@@ -138,79 +146,157 @@ export default function MentionsLegales() {
             <p className="text-slate-600 leading-relaxed mt-3">
               La société ESRre ne saurait être tenue responsable
               d&apos;éventuelles erreurs, omissions ou modifications concernant
-              ces informations. Les utilisateurs sont invités à vérifier les
-              informations auprès de la société ESRre avant toute prise de
-              décision ou engagement.
+              ces informations.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Les utilisateurs sont invités à vérifier les informations auprès
+              de la société ESRre avant toute prise de décision ou engagement.
             </p>
           </section>
 
           {/* Visuels et documents */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Visuels et documents
+              Clause sur les visuels et documents
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Les photographies, illustrations, plans et visuels présentés sur
               le site sont fournis à titre illustratif et ne sont pas
-              contractuels. Ils ont pour objectif de donner une représentation
-              générale des biens ou projets présentés.
+              contractuels.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Ils ont pour objectif de donner une représentation générale des
+              biens ou projets présentés.
             </p>
           </section>
 
           {/* Études de marché */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Études de marché
+              Clause sur les études de marché
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Les analyses, études et données de marché publiées sur le site
-              sont établies à partir de sources considérées comme fiables.
+              Citerra Campus Immobilier sont établies à partir de sources
+              considérées comme fiables.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
               Toutefois, ces informations sont fournies à titre informatif et
               ne constituent ni un conseil d&apos;investissement ni une
-              recommandation contractuelle. La société ESRre décline toute
-              responsabilité quant aux décisions prises sur la base de ces
-              informations.
+              recommandation contractuelle.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              La société ESRre décline toute responsabilité quant aux décisions
+              prises sur la base de ces informations.
             </p>
           </section>
 
           {/* Disponibilité */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Disponibilité des biens
+              Clause de disponibilité
             </h2>
             <p className="text-slate-600 leading-relaxed">
               La disponibilité des biens immobiliers présentés sur le site est
-              susceptible d&apos;évoluer à tout moment. La publication
-              d&apos;un bien immobilier sur le site ne constitue pas une offre
-              ferme ou contractuelle.
+              susceptible d&apos;évoluer à tout moment.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              La publication d&apos;un bien immobilier sur le site ne constitue
+              pas une offre ferme ou contractuelle.
             </p>
           </section>
 
           {/* Informations ESG */}
           <section>
             <h2 className="text-xl font-bold text-navy-800 mb-4">
-              Informations environnementales et ESG
+              Clause relative aux informations environnementales et ESG
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Les informations relatives aux performances environnementales,
               énergétiques, sociales ou de gouvernance (ESG) présentées sur le
-              site sont communiquées à titre informatif. Ces informations
-              peuvent provenir de propriétaires, exploitants, promoteurs,
-              partenaires techniques ou documents réglementaires.
+              site Citerra Campus Immobilier sont communiquées à titre
+              informatif.
             </p>
             <p className="text-slate-600 leading-relaxed mt-3">
+              Ces informations peuvent provenir de différentes sources,
+              notamment&nbsp;:
+            </p>
+            <ul className="text-slate-600 space-y-1 mt-2 list-disc pl-5">
+              <li>propriétaires ou exploitants des actifs immobiliers</li>
+              <li>promoteurs immobiliers</li>
+              <li>partenaires techniques</li>
+              <li>documents réglementaires ou études disponibles</li>
+            </ul>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Bien que la société ESRre s&apos;efforce de diffuser des
+              informations fiables et actualisées, celles-ci ne sauraient être
+              considérées comme exhaustives ou contractuelles.
+            </p>
+
+            <h3 className="text-lg font-semibold text-navy-700 mt-6 mb-2">
+              Données environnementales des actifs
+            </h3>
+            <p className="text-slate-600 leading-relaxed">
               Les données relatives aux performances environnementales ou
-              énergétiques des biens immobiliers (diagnostics énergétiques,
-              certifications, performances carbone, indicateurs ESG) sont
-              fournies à titre indicatif et peuvent évoluer en fonction des
-              audits techniques, rénovations ou de l&apos;évolution de la
-              réglementation.
+              énergétiques des biens immobiliers (notamment les diagnostics
+              énergétiques, certifications environnementales, performances
+              carbone ou indicateurs ESG) sont fournies à titre indicatif.
             </p>
             <p className="text-slate-600 leading-relaxed mt-3">
-              Les analyses ou études relatives aux thématiques ESG sont établies
-              à partir de sources considérées comme fiables mais sont fournies
-              à titre informatif et ne constituent ni un conseil
-              d&apos;investissement, ni un engagement contractuel.
+              Ces informations peuvent être susceptibles d&apos;évoluer en
+              fonction&nbsp;:
+            </p>
+            <ul className="text-slate-600 space-y-1 mt-2 list-disc pl-5">
+              <li>des audits techniques</li>
+              <li>des rénovations ou transformations des actifs</li>
+              <li>de l&apos;évolution de la réglementation</li>
+            </ul>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Les utilisateurs sont invités à vérifier ces informations auprès
+              des parties concernées avant toute prise de décision.
+            </p>
+
+            <h3 className="text-lg font-semibold text-navy-700 mt-6 mb-2">
+              Études et analyses ESG
+            </h3>
+            <p className="text-slate-600 leading-relaxed">
+              Les analyses ou études relatives aux thématiques
+              environnementales, sociétales ou territoriales publiées sur le
+              site Citerra Campus Immobilier sont établies à partir de sources
+              considérées comme fiables.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Toutefois, elles sont fournies à titre informatif et ne
+              constituent ni un conseil d&apos;investissement, ni un engagement
+              contractuel.
+            </p>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              La société ESRre ne saurait être tenue responsable des décisions
+              prises sur la base de ces informations.
+            </p>
+
+            <h3 className="text-lg font-semibold text-navy-700 mt-6 mb-2">
+              Engagement de la société
+            </h3>
+            <p className="text-slate-600 leading-relaxed">
+              La société ESRre, à travers la marque Citerra Campus Immobilier,
+              s&apos;attache à promouvoir des projets immobiliers
+              favorisant&nbsp;:
+            </p>
+            <ul className="text-slate-600 space-y-1 mt-2 list-disc pl-5">
+              <li>l&apos;attractivité des territoires</li>
+              <li>
+                le développement des écosystèmes de formation et
+                d&apos;innovation
+              </li>
+              <li>
+                l&apos;intégration des campus dans leur environnement urbain et
+                économique
+              </li>
+            </ul>
+            <p className="text-slate-600 leading-relaxed mt-3">
+              Cet engagement s&apos;inscrit dans une démarche globale visant à
+              accompagner des projets immobiliers responsables et durables.
             </p>
           </section>
 
