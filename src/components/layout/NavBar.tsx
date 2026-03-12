@@ -39,7 +39,7 @@ export default function NavBar() {
         )}
       >
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <Image
               src="/Logo.png"
               alt="Citerra Campus Immobilier"
@@ -67,7 +67,7 @@ export default function NavBar() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="/#contact"
               className={cn(
                 "rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300",
                 scrolled

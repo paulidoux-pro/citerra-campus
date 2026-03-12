@@ -1,12 +1,12 @@
 import type { NavItem, KeyFigure, Service, Project, Partner } from "@/types";
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: "À propos", href: "#a-propos" },
-  { label: "Expertise", href: "#expertise" },
-  { label: "Co-Schooling", href: "#co-schooling" },
-  { label: "Références", href: "#references" },
-  { label: "Écosystème", href: "#ecosysteme" },
-  { label: "Contact", href: "#contact" },
+  { label: "À propos", href: "/#a-propos" },
+  { label: "Expertise", href: "/#expertise" },
+  { label: "Co-Schooling", href: "/#co-schooling" },
+  { label: "Références", href: "/#references" },
+  { label: "Écosystème", href: "/#ecosysteme" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export const KEY_FIGURES: KeyFigure[] = [

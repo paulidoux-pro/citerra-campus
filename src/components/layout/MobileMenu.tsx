@@ -62,7 +62,7 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
               className="mt-auto pb-8"
             >
               <a
-                href="#contact"
+                href="/#contact"
                 onClick={onClose}
                 className="block w-full rounded-full bg-white py-4 text-center text-lg font-semibold text-navy-800 hover:bg-white/90 transition-colors"
               >
