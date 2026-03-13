@@ -51,6 +51,9 @@ export default function RootLayout({
       <body
         className={`${plusJakarta.variable} ${inter.variable} antialiased`}
       >
+        <div className="bg-gold-500 text-white text-center py-2 px-4 text-sm font-semibold tracking-wide">
+          🚧 Site en construction 🚧
+        </div>
         <NavBar />
         <main>{children}</main>
         <Footer />
