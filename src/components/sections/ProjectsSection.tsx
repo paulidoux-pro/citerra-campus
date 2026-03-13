@@ -269,23 +269,6 @@ export default function ProjectsSection() {
                       {project.description}
                     </p>
 
-                    {project.actors.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5">
-                        {project.actors.slice(0, 3).map((actor) => (
-                          <span
-                            key={actor}
-                            className="inline-flex items-center rounded-full bg-navy-50 px-2.5 py-1 text-xs font-medium text-navy-700"
-                          >
-                            {actor}
-                          </span>
-                        ))}
-                        {project.actors.length > 3 && (
-                          <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-500">
-                            +{project.actors.length - 3}
-                          </span>
-                        )}
-                      </div>
-                    )}
                   </div>
                 </div>
               </div>
