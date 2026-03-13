@@ -9,7 +9,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <SectionWrapper id="contact" className="bg-slate-50">
+    <SectionWrapper id="contact">
       <SectionHeading
         title="Parlons de votre projet"
         subtitle="Prenez contact avec notre équipe pour discuter de vos besoins en développement de campus"

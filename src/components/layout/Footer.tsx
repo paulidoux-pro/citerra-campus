@@ -17,7 +17,7 @@ export default function Footer() {
             />
             <p className="text-sm leading-relaxed">
               Opérateur immobilier spécialisé dans les campus
-              d&apos;enseignement supérieur et les écosystèmes de compétence.
+              d&apos;enseignement supérieur et de formation professionnelle.
             </p>
           </div>
 

@@ -21,7 +21,13 @@ export default function AboutSection() {
               <strong className="text-navy-800">Citerra Campus Immobilier</strong> est
               l&apos;opérateur immobilier spécialisé dans la commercialisation
               d&apos;actifs immobiliers liés aux écosystèmes d&apos;enseignement
-              supérieur et de compétence.
+              supérieur et de formation professionnelle.
+            </p>
+            <p className="text-slate-600 leading-relaxed text-lg mb-6">
+              Citerra Campus fait de l&apos;attractivité des campus, de
+              l&apos;expérience étudiante, de l&apos;approche par les usages et de
+              la performance économique les 4 piliers de son expertise au service
+              des établissements de formation.
             </p>
           </FadeInUp>
 

@@ -13,6 +13,7 @@ export interface KeyFigure {
 export interface Service {
   title: string;
   description: string;
+  subtitle?: string;
   icon: string;
 }
 

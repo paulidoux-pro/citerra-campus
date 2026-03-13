@@ -14,7 +14,7 @@ export default function ExpertiseSection() {
     <SectionWrapper id="expertise" className="bg-slate-50">
       <SectionHeading
         title="Nos expertises"
-        subtitle="Un positionnement unique au croisement de l'immobilier, de la stratégie territoriale et de l'enseignement supérieur"
+        subtitle="Un positionnement unique au croisement de l'immobilier, de la stratégie territoriale et de l'enseignement supérieur/formation professionnelle"
       />
 
       <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -28,13 +28,19 @@ export default function ExpertiseSection() {
               <Icon3D type={service.icon} size="md" />
             </div>
 
-            <h3 className="text-lg font-bold text-navy-900 mb-3">
+            <h3 className="text-lg font-bold text-navy-900 mb-2">
               {service.title}
             </h3>
 
-            <p className="text-sm text-slate-600 leading-relaxed">
+            <p className="text-sm font-medium text-navy-700 leading-relaxed mb-2">
               {service.description}
             </p>
+
+            {service.subtitle && (
+              <p className="text-xs text-slate-500 leading-relaxed">
+                {service.subtitle}
+              </p>
+            )}
 
             <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gradient-to-r from-navy-500 to-gold-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left rounded-full" />
           </motion.div>

@@ -68,8 +68,10 @@ export default function HeroSection() {
           className="mt-8 text-lg md:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed"
         >
           Citerra Campus accompagne le développement des écosystèmes
-          d&apos;enseignement supérieur et de compétence, de la stratégie
-          territoriale à la livraison des campus.
+          d&apos;enseignement supérieur et de formation professionnelle sur
+          l&apos;ensemble du cycle, de la stratégie territoriale à la livraison.
+          L&apos;attractivité des campus, l&apos;expérience étudiante et
+          l&apos;approche par les usages sont au cœur de cet accompagnement.
         </motion.p>
 
         <motion.div
@@ -79,7 +81,7 @@ export default function HeroSection() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button href="#expertise" size="lg" className="bg-white text-navy-800 hover:bg-white/90 hover:shadow-xl">
-            Découvrir nos expertises
+            Découvrir nos offres
           </Button>
           <Button
             href="#contact"

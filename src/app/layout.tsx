@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "immobilier campus",
     "campus enseignement supérieur",
     "résidences étudiantes",
-    "co-schooling",
+    "co-studying",
     "citerra campus",
     "développement campus",
     "stratégie territoriale",

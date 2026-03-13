@@ -1,4 +1,5 @@
 import HeroSection from "@/components/sections/HeroSection";
+import OffersBanner from "@/components/sections/OffersBanner";
 import AboutSection from "@/components/sections/AboutSection";
 import KeyFiguresSection from "@/components/sections/KeyFiguresSection";
 import ExpertiseSection from "@/components/sections/ExpertiseSection";
@@ -11,11 +12,12 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <OffersBanner />
+      <ProjectsSection />
       <AboutSection />
       <KeyFiguresSection />
       <ExpertiseSection />
       <CoSchoolingSection />
-      <ProjectsSection />
       <EcosystemSection />
       <ContactSection />
     </>

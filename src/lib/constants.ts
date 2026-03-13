@@ -1,11 +1,11 @@
 import type { NavItem, KeyFigure, Service, Project, Partner } from "@/types";
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: "À propos", href: "/#a-propos" },
-  { label: "Expertise", href: "/#expertise" },
-  { label: "Co-Schooling", href: "/#co-schooling" },
-  { label: "Références", href: "/#references" },
-  { label: "Écosystème", href: "/#ecosysteme" },
+  { label: "Nos offres", href: "/#references" },
+  { label: "Qui sommes-nous ?", href: "/#a-propos" },
+  { label: "Nos expertises", href: "/#expertise" },
+  { label: "Co-Studying", href: "/#co-studying" },
+  { label: "Nos métiers", href: "/#ecosysteme" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -20,25 +20,33 @@ export const SERVICES: Service[] = [
   {
     title: "Développement de campus",
     description:
-      "Conception et développement de campus d'enseignement supérieur multi-acteurs, de la programmation à la livraison.",
+      "De l'idéation à la livraison de campus multi-acteurs et multi-activités",
+    subtitle:
+      "Co-concevoir des campus au service du développement du territoire et de l'expérience étudiante, en logique d'AMO campus.",
     icon: "building",
   },
   {
-    title: "Résidences étudiantes",
+    title: "Attractivité et expérience étudiante",
     description:
-      "Création de résidences étudiantes et co-living connectées aux campus, adaptées aux nouveaux modes de vie.",
+      "Intégrer des offres de services pour garantir l'attractivité du campus",
+    subtitle:
+      "Résidences étudiantes, co-living, restauration, commerces, transports, activités sportives, coworking, … adaptées aux attentes des nouvelles générations d'étudiants.",
     icon: "home",
   },
   {
     title: "Stratégie territoriale",
     description:
-      "Diagnostics territoriaux et identification du potentiel d'implantation de nouveaux acteurs d'enseignement supérieur.",
+      "Inventer des écosystèmes de formation et d'innovation intégrés au territoire",
+    subtitle:
+      "En logique de complémentarité, au service du développement économique et connecté aux entreprises.",
     icon: "map",
   },
   {
-    title: "Conseil & accompagnement",
+    title: "Accompagnement des montages juridiques et économiques",
     description:
-      "Médiation stratégique entre établissements, collectivités, aménageurs, promoteurs et investisseurs.",
+      "Intégrer la diversité des profils d'établissements d'enseignement (publics, associatifs, privés, consulaires, CFA, …)",
+    subtitle:
+      "Pour des montages viables, sécurisés et pérennes au service de la réussite et du développement des établissements.",
     icon: "handshake",
   },
 ];
@@ -96,28 +104,22 @@ export const PROJECTS: Project[] = [
 
 export const PARTNERS: Partner[] = [
   {
-    name: "ESRre SAS",
-    role: "Groupe holding",
+    name: "ESRre",
+    role: "Agence immobilière",
     description:
-      "Société holding portant les marques Citerra Campus Immobilier et AIM Immobilier.",
-  },
-  {
-    name: "AIM Immobilier",
-    role: "Marché des particuliers",
-    description:
-      "Marque dédiée au marché immobilier résidentiel des particuliers.",
+      "Agence immobilière portant les marques Citerra Campus Immobilier (professionnels) et AIM Immobilier (particuliers).",
   },
   {
     name: "Winn'UP",
-    role: "Conseil stratégique",
+    role: "Cabinet de conseil",
     description:
-      "Cabinet de conseil spécialisé dans la transformation des établissements d'enseignement supérieur et des territoires.",
+      "Cabinet de conseils spécialisé en stratégie d'enseignement supérieur et d'accompagnement des territoires.",
   },
   {
-    name: "Campuscore",
-    role: "Labellisation campus",
+    name: "Campuscore Institute",
+    role: "Société à mission",
     description:
-      "Dispositif de labellisation et d'évaluation de la qualité des campus d'enseignement supérieur.",
+      "Société à Mission portant deux dispositifs de labellisation des campus : Campuscore Design (pour la conception ou rénovation de campus) et Campuscore Expérience (pour les campus existants).",
   },
 ];
 

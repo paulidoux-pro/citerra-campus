@@ -10,19 +10,19 @@ const principles = [
     icon: <Users size={22} />,
     title: "Multi-acteurs",
     description:
-      "Plusieurs établissements, organismes de formation et entreprises partagent un même lieu.",
+      "Plusieurs établissements, organismes de formation, voire d'entreprises, partagent un même lieu.",
   },
   {
     icon: <BookOpen size={22} />,
     title: "Multi-activités",
     description:
-      "Enseignement, co-study, travail, innovation, restauration et événements cohabitent.",
+      "Enseignement, recherche & innovation, fablabs, coworking, événementiels, restauration, services, sports, résidences étudiantes, coliving, … peuvent cohabiter.",
   },
   {
     icon: <Building2 size={22} />,
     title: "Mutualisation",
     description:
-      "Les espaces sont partagés et non affectés de manière exclusive, optimisant l'usage.",
+      "Certains espaces sont partagés afin d'en optimiser l'usage et d'améliorer le modèle économique des établissements.",
   },
   {
     icon: <Sparkles size={22} />,
@@ -40,15 +40,15 @@ const principles = [
     icon: <Shield size={22} />,
     title: "Sérendipité",
     description:
-      "Le lieu est conçu pour provoquer les échanges et les rencontres non programmées.",
+      "Le lieu est conçu pour provoquer les échanges et les rencontres non programmées, véritable levier d'innovation et de création de valeur.",
   },
 ];
 
 export default function CoSchoolingSection() {
   return (
-    <SectionWrapper id="co-schooling">
+    <SectionWrapper id="co-studying">
       <SectionHeading
-        title="Le campus co-schooling"
+        title="Le campus co-studying"
         subtitle="Un modèle de campus multi-acteurs et multi-activités, fondé sur la mutualisation des espaces, des usages et des temporalités"
       />
 
